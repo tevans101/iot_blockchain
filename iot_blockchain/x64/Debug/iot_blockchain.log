@@ -1,0 +1,68 @@
+﻿  Blockchain.cpp
+C:\Users\DellXPS\source\repos\iot_blockchain\iot_blockchain\Blockchain.cpp(1,21): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\DellXPS\source\repos\iot_blockchain\iot_blockchain\Blockchain.cpp(1,10): error C2146: syntax error: missing ';' before identifier '_difficulty'
+C:\Users\DellXPS\source\repos\iot_blockchain\iot_blockchain\Blockchain.cpp(2,6): error C2039: 'vector': is not a member of 'std'
+C:\Users\DellXPS\source\repos\iot_blockchain\iot_blockchain\predefined C++ types (compiler internal)(418): message : see declaration of 'std'
+C:\Users\DellXPS\source\repos\iot_blockchain\iot_blockchain\Blockchain.cpp(2,12): error C2143: syntax error: missing ';' before '<'
+C:\Users\DellXPS\source\repos\iot_blockchain\iot_blockchain\Blockchain.cpp(2,12): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\DellXPS\source\repos\iot_blockchain\iot_blockchain\Blockchain.cpp(3,19): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\DellXPS\source\repos\iot_blockchain\iot_blockchain\Blockchain.cpp(3,7): error C2146: syntax error: missing ';' before identifier 'GetLastBlock'
+  iot_blockchain.cpp
+  Block.cpp
+C:\Users\DellXPS\source\repos\iot_blockchain\iot_blockchain\Block.h(7,7): error C2039: 'string': is not a member of 'std'
+C:\Users\DellXPS\source\repos\iot_blockchain\iot_blockchain\predefined C++ types (compiler internal)(418): message : see declaration of 'std'
+C:\Users\DellXPS\source\repos\iot_blockchain\iot_blockchain\Block.h(7,31): error C3646: 'previousHashValue': unknown override specifier
+C:\Users\DellXPS\source\repos\iot_blockchain\iot_blockchain\Block.h(7,31): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\DellXPS\source\repos\iot_blockchain\iot_blockchain\Block.h(9,7): error C2061: syntax error: identifier 'uint32_t'
+C:\Users\DellXPS\source\repos\iot_blockchain\iot_blockchain\Block.h(10,7): error C2039: 'string': is not a member of 'std'
+C:\Users\DellXPS\source\repos\iot_blockchain\iot_blockchain\predefined C++ types (compiler internal)(418): message : see declaration of 'std'
+C:\Users\DellXPS\source\repos\iot_blockchain\iot_blockchain\Block.h(10,26): error C3646: 'GetHashValue': unknown override specifier
+C:\Users\DellXPS\source\repos\iot_blockchain\iot_blockchain\Block.h(10,26): error C2059: syntax error: '('
+C:\Users\DellXPS\source\repos\iot_blockchain\iot_blockchain\Block.h(10,28): error C2238: unexpected token(s) preceding ';'
+C:\Users\DellXPS\source\repos\iot_blockchain\iot_blockchain\Block.h(11,32): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\DellXPS\source\repos\iot_blockchain\iot_blockchain\Block.h(11,32): error C2146: syntax error: missing ')' before identifier '_difficulty'
+C:\Users\DellXPS\source\repos\iot_blockchain\iot_blockchain\Block.h(11,43): error C3646: '_difficulty': unknown override specifier
+C:\Users\DellXPS\source\repos\iot_blockchain\iot_blockchain\Block.h(11,43): error C2059: syntax error: ')'
+C:\Users\DellXPS\source\repos\iot_blockchain\iot_blockchain\Block.h(14,17): error C3646: '_index': unknown override specifier
+C:\Users\DellXPS\source\repos\iot_blockchain\iot_blockchain\Block.h(14,17): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\DellXPS\source\repos\iot_blockchain\iot_blockchain\Block.h(15,16): error C3646: '_nonce': unknown override specifier
+C:\Users\DellXPS\source\repos\iot_blockchain\iot_blockchain\Block.h(15,16): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\DellXPS\source\repos\iot_blockchain\iot_blockchain\Block.h(16,7): error C2039: 'string': is not a member of 'std'
+C:\Users\DellXPS\source\repos\iot_blockchain\iot_blockchain\predefined C++ types (compiler internal)(418): message : see declaration of 'std'
+C:\Users\DellXPS\source\repos\iot_blockchain\iot_blockchain\Block.h(16,19): error C3646: 'bData': unknown override specifier
+C:\Users\DellXPS\source\repos\iot_blockchain\iot_blockchain\Block.h(16,19): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\DellXPS\source\repos\iot_blockchain\iot_blockchain\Block.h(17,7): error C2039: 'string': is not a member of 'std'
+C:\Users\DellXPS\source\repos\iot_blockchain\iot_blockchain\predefined C++ types (compiler internal)(418): message : see declaration of 'std'
+C:\Users\DellXPS\source\repos\iot_blockchain\iot_blockchain\Block.h(17,19): error C3646: 'bHash': unknown override specifier
+C:\Users\DellXPS\source\repos\iot_blockchain\iot_blockchain\Block.h(17,19): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\DellXPS\source\repos\iot_blockchain\iot_blockchain\Block.h(18,14): error C3646: '_time': unknown override specifier
+C:\Users\DellXPS\source\repos\iot_blockchain\iot_blockchain\Block.h(18,14): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\DellXPS\source\repos\iot_blockchain\iot_blockchain\Block.h(20,7): error C2039: 'string': is not a member of 'std'
+C:\Users\DellXPS\source\repos\iot_blockchain\iot_blockchain\predefined C++ types (compiler internal)(418): message : see declaration of 'std'
+C:\Users\DellXPS\source\repos\iot_blockchain\iot_blockchain\Block.h(20,27): error C3646: 'CalculateHash': unknown override specifier
+C:\Users\DellXPS\source\repos\iot_blockchain\iot_blockchain\Block.h(20,27): error C2059: syntax error: '('
+C:\Users\DellXPS\source\repos\iot_blockchain\iot_blockchain\Block.h(20,35): error C2238: unexpected token(s) preceding ';'
+C:\Users\DellXPS\source\repos\iot_blockchain\iot_blockchain\Block.cpp(10,60): error C2511: 'Block::Block(uint32_t,const std::string &)': overloaded member function not found in 'Block'
+C:\Users\DellXPS\source\repos\iot_blockchain\iot_blockchain\Block.h(4): message : see declaration of 'Block'
+C:\Users\DellXPS\source\repos\iot_blockchain\iot_blockchain\Block.cpp(11,1): error C2550: 'Block::{ctor}': constructor initializer lists are only allowed on constructor definitions
+C:\Users\DellXPS\source\repos\iot_blockchain\iot_blockchain\Block.cpp(12,5): error C2065: '_nonce': undeclared identifier
+C:\Users\DellXPS\source\repos\iot_blockchain\iot_blockchain\Block.cpp(13,5): error C2065: '_time': undeclared identifier
+C:\Users\DellXPS\source\repos\iot_blockchain\iot_blockchain\Block.cpp(16,20): error C2039: 'GetHashValue': is not a member of 'Block'
+C:\Users\DellXPS\source\repos\iot_blockchain\iot_blockchain\Block.h(4): message : see declaration of 'Block'
+C:\Users\DellXPS\source\repos\iot_blockchain\iot_blockchain\Block.cpp(18,12): error C2065: 'bHash': undeclared identifier
+C:\Users\DellXPS\source\repos\iot_blockchain\iot_blockchain\Block.cpp(22,1): error C2511: 'void Block::MineBlock(uint32_t)': overloaded member function not found in 'Block'
+C:\Users\DellXPS\source\repos\iot_blockchain\iot_blockchain\Block.h(4): message : see declaration of 'Block'
+C:\Users\DellXPS\source\repos\iot_blockchain\iot_blockchain\Block.cpp(23,40): error C2131: expression did not evaluate to a constant
+C:\Users\DellXPS\source\repos\iot_blockchain\iot_blockchain\Block.cpp(23,28): message : failure was caused by a read of a variable outside its lifetime
+C:\Users\DellXPS\source\repos\iot_blockchain\iot_blockchain\Block.cpp(23,28): message : see usage of '_difficulty'
+C:\Users\DellXPS\source\repos\iot_blockchain\iot_blockchain\Block.cpp(27,23): error C3863: array type 'std::vector<char,std::allocator<char>> [_difficulty+1]' is not assignable
+C:\Users\DellXPS\source\repos\iot_blockchain\iot_blockchain\Block.cpp(30,29): error C3863: array type 'std::vector<char,std::allocator<char>> [_difficulty+1]' is not assignable
+C:\Users\DellXPS\source\repos\iot_blockchain\iot_blockchain\Block.cpp(36,9): error C2065: '_nonce': undeclared identifier
+C:\Users\DellXPS\source\repos\iot_blockchain\iot_blockchain\Block.cpp(37,9): error C2065: 'bHash': undeclared identifier
+C:\Users\DellXPS\source\repos\iot_blockchain\iot_blockchain\Block.cpp(37,17): error C3861: 'CalculateHash': identifier not found
+C:\Users\DellXPS\source\repos\iot_blockchain\iot_blockchain\Block.cpp(38,14): error C2065: 'bHash': undeclared identifier
+C:\Users\DellXPS\source\repos\iot_blockchain\iot_blockchain\Block.cpp(40,37): error C2065: 'bHash': undeclared identifier
+  sha256.cpp
+C:\Users\DellXPS\source\repos\iot_blockchain\iot_blockchain\sha256.cpp(126,61): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Users\DellXPS\source\repos\iot_blockchain\iot_blockchain\sha256.cpp(132,9): error C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  Generating Code...
